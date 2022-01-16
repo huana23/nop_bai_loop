@@ -7,7 +7,7 @@ for (var i = 1; i < 10 ; i++) {
     if (i % 2 == 0) {
         dsSoChan += i + " ";
         document.getElementById("txtTaoDiv").style.backgroundColor = "red";
-        document.getElementById("txtTaoDiv").innerHTML = dsSoChan;
+        document.getElementById("txtTaoDiv").innerHTML = "Danh sách thẻ div số chẵn : " + dsSoChan;
 
         document.getElementById("txtTaoDiv2").style.backgroundColor = "red";
         document.getElementById("txtTaoDiv2").innerHTML = "div lẻ 2";
@@ -23,7 +23,7 @@ for (var i = 1; i < 10 ; i++) {
     }else {
         dsSoLe += i + " ";
         document.getElementById("txtTaoDiv1").style.backgroundColor = "blue";
-        document.getElementById("txtTaoDiv1").innerHTML = dsSoLe;
+        document.getElementById("txtTaoDiv1").innerHTML ="Danh sách thẻ div số lẻ : " +  dsSoLe;
 
         document.getElementById("txtTaoDiv3").style.backgroundColor = "blue";
         document.getElementById("txtTaoDiv3").innerHTML = "div chẵn 2";
